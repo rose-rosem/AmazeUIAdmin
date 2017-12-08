@@ -1,0 +1,79 @@
+﻿@using Microsoft.AspNet.Identity
+
+@{
+    var UserName = User.Identity.GetUserName();
+}
+
+@*@if (Request.IsAuthenticated)
+    {
+        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+        {
+        @Html.AntiForgeryToken()
+
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("你好，" + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">注销</a></li>
+        </ul>
+        }
+    }
+    else
+    {
+        <ul class="nav navbar-nav navbar-right">
+            <li>@Html.ActionLink("注册", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+            <li>@Html.ActionLink("登录", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        </ul>
+    }*@
+
+
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+        @*<ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("你好，" + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">注销</a></li>
+        </ul>*@
+        <ul>
+            <!-- 欢迎语 -->
+            <li class="am-text-sm tpl-header-navbar-welcome">
+                <a href="@Url.Action("Index", "Manage")">欢迎你, <span>@UserName</span> </a>
+            </li>
+
+            <li class="am-text-sm ">
+                <a href="@Url.Action("Register", "Account")">
+                    <span class="am-icon-clone"></span> 注册
+                </a>
+            </li>
+
+            <!-- 退出 -->
+            <li class="am-text-sm">
+                <a href="javascript:document.getElementById('logoutForm').submit()">
+                    <span class="am-icon-sign-out"></span> 退出
+                </a>
+            </li>
+        </ul>
+    }
+}
+else
+{
+    @*<ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("注册", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("登录", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>*@
+    <ul>
+        <!-- 登录 -->
+        <li class="am-text-sm">
+            <a href="@Url.Action("Login", "Account")">
+                <span class="am-icon-sign-out"></span> 登录
+            </a>
+        </li>
+    </ul>
+}
+
+

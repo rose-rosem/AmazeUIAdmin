@@ -10,6 +10,180 @@
     <_PublishTargetUrl>ftp://bxw2342200041.my3w.com/</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="assets/css/admin.css">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/css/amazeui.datatables.min.css">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/css/amazeui.min.css">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/css/app.css">
+      <publishTime>12/08/2017 15:19:57</publishTime>
+    </File>
+    <File Include="assets/css/app.less">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/css/dowload.css">
+      <publishTime>12/08/2017 16:37:11</publishTime>
+    </File>
+    <File Include="assets/css/fullcalendar.min.css">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/css/fullcalendar.print.css">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/app-icon72x72%402x.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-chrome.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-firefox.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-ie.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-opera.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/admin-safari.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/adminPage.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/blogPage.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/landing.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/landingPage.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/loginPage.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/examples/sidebarPage.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/favicon.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/i/startup-640x1096.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/a5.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/arrange.png">
+      <publishTime>12/08/2017 13:22:50</publishTime>
+    </File>
+    <File Include="assets/img/bg-lottery.png">
+      <publishTime>12/08/2017 15:06:10</publishTime>
+    </File>
+    <File Include="assets/img/corrections.png">
+      <publishTime>12/08/2017 13:22:48</publishTime>
+    </File>
+    <File Include="assets/img/entry.png">
+      <publishTime>12/08/2017 13:22:49</publishTime>
+    </File>
+    <File Include="assets/img/gift.png">
+      <publishTime>12/08/2017 13:22:49</publishTime>
+    </File>
+    <File Include="assets/img/k.jpg">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/logo.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/logoa.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/logob.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/ly-plate-c.gif">
+      <publishTime>12/08/2017 15:06:10</publishTime>
+    </File>
+    <File Include="assets/img/playbtn.png">
+      <publishTime>12/08/2017 15:06:10</publishTime>
+    </File>
+    <File Include="assets/img/user01.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/user02.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/user03.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/user04.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/user05.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/user06.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/img/user07.png">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.datatables.min.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/amazeui.min.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/app.js">
+      <publishTime>12/08/2017 10:58:16</publishTime>
+    </File>
+    <File Include="assets/js/awardRotate.js">
+      <publishTime>12/08/2017 15:07:05</publishTime>
+    </File>
+    <File Include="assets/js/dataTables.responsive.min.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/echarts.min.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/fullcalendar.min.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/jquery-1.10.2.js">
+      <publishTime>12/08/2017 15:07:05</publishTime>
+    </File>
+    <File Include="assets/js/jquery.min.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/moment.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="assets/js/theme.js">
+      <publishTime>12/07/2017 20:13:15</publishTime>
+    </File>
+    <File Include="bin/Aliyun.OSS.dll">
+      <publishTime>02/11/2017 23:12:17</publishTime>
+    </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>12/07/2017 17:29:28</publishTime>
     </File>
@@ -21,6 +195,15 @@
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
       <publishTime>12/07/2017 17:29:31</publishTime>
+    </File>
+    <File Include="bin/ESBasic.dll">
+      <publishTime>06/22/2017 13:29:19</publishTime>
+    </File>
+    <File Include="bin/HankClassLibrary.dll">
+      <publishTime>11/18/2017 17:22:07</publishTime>
+    </File>
+    <File Include="bin/HankClassLibrary.pdb">
+      <publishTime>11/18/2017 17:22:07</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
       <publishTime>12/07/2017 17:29:34</publishTime>
@@ -62,13 +245,19 @@
       <publishTime>12/07/2017 17:29:27</publishTime>
     </File>
     <File Include="bin/NewStaffWeb.dll">
-      <publishTime>12/07/2017 18:55:56</publishTime>
+      <publishTime>12/08/2017 17:05:39</publishTime>
     </File>
     <File Include="bin/NewStaffWeb.pdb">
-      <publishTime>12/07/2017 18:55:56</publishTime>
+      <publishTime>12/08/2017 17:05:39</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>12/07/2017 17:29:30</publishTime>
+    </File>
+    <File Include="bin/Oraycn.MCapture.dll">
+      <publishTime>06/22/2017 13:29:12</publishTime>
+    </File>
+    <File Include="bin/Oraycn.MFile.dll">
+      <publishTime>06/22/2017 13:29:15</publishTime>
     </File>
     <File Include="bin/Owin.dll">
       <publishTime>12/07/2017 17:29:34</publishTime>
@@ -239,10 +428,10 @@
       <publishTime>12/07/2017 17:29:31</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>12/07/2017 17:43:10</publishTime>
+      <publishTime>12/08/2017 11:04:18</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>12/07/2017 17:44:45</publishTime>
+      <publishTime>12/08/2017 11:05:11</publishTime>
     </File>
     <File Include="Views/Account/ResetPassword.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
@@ -265,8 +454,20 @@
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>12/07/2017 17:29:22</publishTime>
     </File>
+    <File Include="Views/Home/Data.aspx">
+      <publishTime>12/08/2017 16:42:12</publishTime>
+    </File>
+    <File Include="Views/Home/Date.cshtml">
+      <publishTime>12/08/2017 16:07:03</publishTime>
+    </File>
+    <File Include="Views/Home/Download.cshtml">
+      <publishTime>12/08/2017 13:30:31</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/07/2017 17:29:22</publishTime>
+      <publishTime>12/08/2017 16:52:57</publishTime>
+    </File>
+    <File Include="Views/Home/Lottery.cshtml">
+      <publishTime>12/08/2017 15:07:58</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
@@ -287,16 +488,19 @@
       <publishTime>12/07/2017 17:29:31</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/08/2017 09:54:54</publishTime>
     </File>
     <File Include="Views/Shared/Lockout.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/08/2017 09:55:00</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/08/2017 15:24:37</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/08/2017 10:04:03</publishTime>
+    </File>
+    <File Include="Views/Shared/_UserPage.cshtml">
+      <publishTime>12/08/2017 16:54:03</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>12/07/2017 17:29:22</publishTime>
@@ -305,7 +509,7 @@
       <publishTime>12/07/2017 17:29:22</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/07/2017 18:55:57</publishTime>
+      <publishTime>12/08/2017 17:07:47</publishTime>
     </File>
   </ItemGroup>
 </Project>

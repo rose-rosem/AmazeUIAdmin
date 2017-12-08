@@ -1,0 +1,170 @@
+﻿@using NewStaffWeb.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "登录";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>登录</title>
+    <meta name="description" content="这是一个 login 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="~/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="~/assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="login" />
+
+    @Styles.Render("~/amazeui/css")
+
+    @Scripts.Render("~/jquerymin/js")
+
+</head>
+
+<body data-type="login">
+    @Scripts.Render("~/theme/js")
+    <div class="am-g tpl-g">
+        <!-- 风格切换 -->
+        <div class="tpl-skiner">
+            <div class="tpl-skiner-toggle am-icon-cog">
+            </div>
+            <div class="tpl-skiner-content">
+                <div class="tpl-skiner-content-title">
+                    选择主题
+                </div>
+                <div class="tpl-skiner-content-bar">
+                    <span class="skiner-color skiner-white" data-color="theme-white"></span>
+                    <span class="skiner-color skiner-black" data-color="theme-black"></span>
+                </div>
+            </div>
+        </div>
+        <div class="tpl-login">
+            <div class="tpl-login-content">
+                <div class="tpl-login-logo"></div>
+
+                @*<form class="am-form tpl-form-line-form">
+                    <div class="am-form-group">
+                        <input type="text" class="tpl-form-input" id="user-name" placeholder="请输入账号">
+                    </div>
+
+                    <div class="am-form-group">
+                        <input type="password" class="tpl-form-input" id="user-name" placeholder="请输入密码">
+                    </div>
+
+                    <div class="am-form-group tpl-login-remember-me">
+                        <input id="remember-me" type="checkbox">
+                        <label for="remember-me">
+                            记住密码
+                        </label>
+                    </div>
+                </form>*@
+
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "am-form tpl-form-line-form", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    
+                    <div class="am-form-group">
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "tpl-form-input", id = "user-name", placeholder = "请输入账号" })
+                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                    </div>
+                    
+                    <div class="am-form-group">
+                        @Html.PasswordFor(m => m.Password, new { @class = "tpl-form-input", id = "user-name", placeholder = "请输入密码" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                    
+                    <div class="am-form-group tpl-login-remember-me">
+                        @Html.CheckBoxFor(m => m.RememberMe, new { @class = "zq", id = "remember-me" })
+                        @Html.LabelFor(m => m.RememberMe)
+                    </div>
+
+                    <div class="am-form-group">
+                        @*<button type="button" class="am-btn am-btn-primary  am-btn-block tpl-btn-bg-color-success  tpl-login-btn">提交</button>*@
+                        <input type="submit" value="提交" class="am-btn am-btn-primary  am-btn-block tpl-btn-bg-color-success  tpl-login-btn" />
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+
+    <div style="font-size:15px;text-align:center; margin-top:10px;color:#b5b5b5;">
+        Copyright &copy; 2016 BaconlockeAll rights reserved.</br>
+        培洛科技 &nbsp;&nbsp;苏ICP备16037756号
+    </div>
+    @Scripts.Render("~/amazeui/js")
+
+</body>
+
+</html>
+
+
+
+
+
+@*<h2>@ViewBag.Title。</h2>
+<div class="row">
+    <div class="col-md-8">
+        <section id="loginForm">
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                <h4>使用本地帐户登录。</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                    <div class="col-md-10">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <div class="checkbox">
+                            @Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe)
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="登录" class="btn btn-default" />
+                    </div>
+                </div>
+                <p>
+                    @Html.ActionLink("注册为新用户", "Register")
+                </p>
+                
+                //在为密码重置功能启用帐户确认后启用此项
+                    <p>
+                        @Html.ActionLink("忘记了密码?", "ForgotPassword")
+                    </p>
+            }
+        </section>
+    </div>
+    <div class="col-md-4">
+        <section id="socialLoginForm">
+            @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+        </section>
+    </div>
+</div>
+
+
+@section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }*@

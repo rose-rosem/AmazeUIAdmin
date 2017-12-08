@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="~/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="~/assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="index" />
+
+    @*<script src="~/assets/js/echarts.min.js"></script>*@
+
+    @Styles.Render("~/amazeui/css")
+
+    @Scripts.Render("~/jquerymin/js")
+
+</head>
+<body data-type="index">
+
+    <div class="am-g tpl-g">
+        @Scripts.Render("~/theme/js")
+        <!-- 头部 -->
+        <header>
+            <!-- logo -->
+            <div class="am-fl tpl-header-logo">
+                <a href="@Url.Action("Index","Home")"><img src="/assets/img/logo.png" alt=""></a>
+            </div>
+            <!-- 右侧内容 -->
+            <div class="tpl-header-fluid">
+                <!-- 侧边切换 -->
+                <div class="am-fl tpl-header-switch-button am-icon-list">
+                    <span>
+                    </span>
+                </div>
+                <!-- 搜索 -->
+                <div class="am-fl tpl-header-search">
+                    <form class="tpl-header-search-form" action="https://www.baidu.com/s" target="_blank" method="get">
+                        <button class="tpl-header-search-btn am-icon-search" type="submit" name="search"></button>
+                        <input class="tpl-header-search-box" placeholder="搜索内容..." type="text" name="wd">
+                    </form>
+                </div>
+                <!-- 其它功能-->
+                <div class="am-fr tpl-header-navbar">
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </header>
+        <!-- 风格切换 -->
+        <div class="tpl-skiner">
+            <div class="tpl-skiner-toggle am-icon-cog">
+            </div>
+            <div class="tpl-skiner-content">
+                <div class="tpl-skiner-content-title">
+                    选择主题
+                </div>
+                <div class="tpl-skiner-content-bar">
+                    <span class="skiner-color skiner-white" data-color="theme-white"></span>
+                    <span class="skiner-color skiner-black" data-color="theme-black"></span>
+                </div>
+            </div>
+        </div>
+        <!-- 侧边导航栏 -->
+        <div class="left-sidebar">
+            @Html.Partial("_UserPage")
+        </div>
+
+        <!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+
+            <div class="container-fluid am-cf" style="padding-bottom:20px !important;">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+                        <div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 后台首页 <small>BaconLocke</small></div>
+                        <p class="page-header-description">培洛利用人工智能和大数据的优势, 实现比传统课堂更高效、更吸引学生的教学。包含学生学习的所有环。</p>
+                    </div>
+                    <div class="am-u-lg-3 tpl-index-settings-button">
+                        <button type="button" class="page-header-button">@DateTime.Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row-content am-cf">
+                @RenderBody()
+            </div>
+
+
+            <div style="font-size:15px;text-align:center; margin-top:10px;color:#b5b5b5;">
+                Copyright &copy; 2016 BaconlockeAll rights reserved.</br>
+                培洛科技 &nbsp;&nbsp;苏ICP备16037756号
+            </div>
+
+        </div>
+
+
+    </div>
+
+    @Scripts.Render("~/index/js")
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+
+@*<div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("应用程序名称", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("主页", "Index", "Home")</li>
+                    <li>@Html.ActionLink("关于", "About", "Home")</li>
+                    <li>@Html.ActionLink("联系方式", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")*@

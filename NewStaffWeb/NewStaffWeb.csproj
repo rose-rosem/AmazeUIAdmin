@@ -182,7 +182,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="404.html" />
     <Content Include="assets\css\admin.css" />
     <Content Include="assets\css\amazeui.datatables.min.css" />
     <Content Include="assets\css\amazeui.min.css" />
@@ -234,19 +233,9 @@
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\moment.js" />
     <Content Include="assets\js\theme.js" />
-    <Content Include="calendar.html" />
-    <Content Include="chart.html" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="form.html" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
-    <Content Include="index.html" />
-    <Content Include="login.html" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="assets\css\app.less" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
     <Content Include="assets\fonts\fontawesome-webfont.ttf" />
@@ -254,22 +243,6 @@
     <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <Content Include="assets\fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\111.pubxml" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
-    <Content Include="Scripts\_references.js" />
-    <Content Include="sign-up.html" />
-    <Content Include="table-list-img.html" />
-    <Content Include="table-list.html" />
-    <Content Include="tables.html" />
     <Content Include="Views\Home\Data.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -285,7 +258,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -319,7 +291,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
