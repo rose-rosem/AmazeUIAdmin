@@ -39,6 +39,11 @@ namespace NewStaffWeb
                         "~/assets/js/amazeui.min.js",
                         "~/assets/js/app.js"));
 
+            bundles.Add(new ScriptBundle("~/index/js").Include(
+                        "~/assets/js/amazeui.min.js",
+                        "~/assets/js/amazeui.datatables.min.js",
+                        "~/assets/js/dataTables.responsive.min.js",
+                        "~/assets/js/app.js"));
 
             bundles.Add(new StyleBundle("~/amazeui/css").Include(
                       "~/assets/css/amazeui.min.css",

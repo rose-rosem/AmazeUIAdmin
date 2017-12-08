@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace NewStaffWeb.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -13,17 +14,23 @@ namespace NewStaffWeb.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Download()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Lottery()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        public ActionResult Data()
+        {
+            return View();
+        }
+
+        public ActionResult Date()
+        {
             return View();
         }
     }

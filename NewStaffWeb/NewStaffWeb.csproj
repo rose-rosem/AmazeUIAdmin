@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HankClassLibrary">
+      <HintPath>..\..\plkjClassLibrary\bin\Debug\HankClassLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -170,6 +173,13 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Views\Home\Data.aspx.cs">
+      <DependentUpon>Data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Home\Data.aspx.designer.cs">
+      <DependentUpon>Data.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
@@ -177,13 +187,21 @@
     <Content Include="assets\css\amazeui.datatables.min.css" />
     <Content Include="assets\css\amazeui.min.css" />
     <Content Include="assets\css\app.css" />
+    <Content Include="assets\css\dowload.css" />
     <Content Include="assets\css\fullcalendar.min.css" />
     <Content Include="assets\css\fullcalendar.print.css" />
     <Content Include="assets\img\a5.png" />
+    <Content Include="assets\img\arrange.png" />
+    <Content Include="assets\img\bg-lottery.png" />
+    <Content Include="assets\img\corrections.png" />
+    <Content Include="assets\img\entry.png" />
+    <Content Include="assets\img\gift.png" />
     <Content Include="assets\img\k.jpg" />
     <Content Include="assets\img\logo.png" />
     <Content Include="assets\img\logoa.png" />
     <Content Include="assets\img\logob.png" />
+    <Content Include="assets\img\ly-plate-c.gif" />
+    <Content Include="assets\img\playbtn.png" />
     <Content Include="assets\img\user01.png" />
     <Content Include="assets\img\user02.png" />
     <Content Include="assets\img\user03.png" />
@@ -208,9 +226,11 @@
     <Content Include="assets\js\amazeui.datatables.min.js" />
     <Content Include="assets\js\amazeui.min.js" />
     <Content Include="assets\js\app.js" />
+    <Content Include="assets\js\awardRotate.js" />
     <Content Include="assets\js\dataTables.responsive.min.js" />
     <Content Include="assets\js\echarts.min.js" />
     <Content Include="assets\js\fullcalendar.min.js" />
+    <Content Include="assets\js\jquery-1.10.2.js" />
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\moment.js" />
     <Content Include="assets\js\theme.js" />
@@ -250,6 +270,7 @@
     <Content Include="table-list-img.html" />
     <Content Include="table-list.html" />
     <Content Include="tables.html" />
+    <Content Include="Views\Home\Data.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -263,8 +284,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
@@ -287,6 +306,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Shared\_UserPage.cshtml" />
+    <Content Include="Views\Home\Download.cshtml" />
+    <Content Include="Views\Home\Lottery.cshtml" />
+    <Content Include="Views\Home\Date.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -297,6 +320,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

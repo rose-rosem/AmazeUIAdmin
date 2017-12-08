@@ -2,30 +2,99 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <div class="row  am-cf">
+        <div class="am-u-sm-12 am-u-md-12 am-u-lg-4">
+            <div class="widget wi am-cf">
+                <div class="widget-head am-cf">
+                    <div class="widget-title am-fl">常用工具下载</div>
+                    <div class="widget-function am-fr">
+                        <a href="javascript:;" class="am-icon-cog"></a>
+                    </div>
+                </div>
+                <div class="widget-body am-fr">
+                    <div class="am-fl">
+                        <div class="widget-fluctuation-period-text">
+                            <a href="~/APP_NewRevise/培洛科技-批作业.application" style="font-size:15px!important;">批作业工具下载</a>
+                            <div>
+                                <a href="~/WpfApplication题目整理/WpfApplication题目整理.application" style="font-size:15px!important;">题目整理工具下载</a>
+                            </div>
+                            <div>
+                                <a href="~/APP_LUTI/录题工具.application" style="font-size:15px!important;">题目录入工具下载</a>
+                            </div>
+                            @*<a href="#" class="widget-fluctuation-tpl-btn"><i class="am-icon-pencil" style="margin-top:0 !important;">更多工具下载</i></a>*@
+                        </div>
+                    </div>
+                    <div class="am-fr am-cf">
+                        <img src="~/assets/img/logo.png" height="40"/>
+                        @*<div class="widget-fluctuation-description-amount text-success" am-cf>
+                            +￥30420.56
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+                        </div>
+                        <div class="widget-fluctuation-description-text am-text-right">
+                            8月份收入
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="am-u-sm-12 am-u-md-6 am-u-lg-4">
+            <div class="widget widget-primary am-cf">
+                <div class="widget-statistic-header">
+                    每日数据截图
+                </div>
+                <div class="widget-statistic-body">
+                    <div class="widget-statistic-value">
+                        <a href="@Url.Action("Data","Home")" style="color:white;">Data Table</a>
+                    </div>
+                    <div class="widget-statistic-description">
+                        题目录入表、错题待改表、 整题数量表等<strong>5张</strong> 表
+                    </div>
+                    <span class="widget-statistic-icon am-icon-pencil"></span>
+                </div>
+            </div>
+        </div>
+        <div class="am-u-sm-12 am-u-md-6 am-u-lg-4">
+            <div class="widget widget-purple am-cf">
+                <div class="widget-statistic-header">
+                    幸运大抽奖
+                </div>
+                <div class="widget-statistic-body">
+                    <div class="widget-statistic-value">
+                        <a href="@Url.Action("Lottery", "Home")" style="color:white;">Six Six Six</a>
+                    </div>
+                    <div class="widget-statistic-description">
+                        辛运大抽奖 <strong>666</strong> 员工
+                    </div>
+                    <span class="widget-statistic-icon am-icon-support"></span>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="row am-cf">
+        <div class="am-u-sm-12 am-u-md-6">
+            <div class="widget am-cf">
+                <div class="widget-head am-cf">
+                    <div class="widget-title am-fl">通知公告表</div>
+                    <div class="widget-function am-fr">
+                        <a href="javascript:;" class="am-icon-cog"></a>
+                    </div>
+                </div>
+                <div class="widget-body-md widget-body am-fr" >
+                   
+                </div>
+            </div>
+        </div>
+        <div class="am-u-sm-12 am-u-md-6">
+            <div class="widget am-cf">
+                <div class="widget-head am-cf">
+                    <div class="widget-title am-fl">客户信息表</div>
+                    <div class="widget-function am-fr">
+                        <a href="javascript:;" class="am-icon-cog"></a>
+                    </div>
+                </div>
+                <div class="widget-body widget-body-md am-fr">
+
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>

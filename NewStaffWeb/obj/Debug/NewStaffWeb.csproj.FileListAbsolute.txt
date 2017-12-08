@@ -142,6 +142,12 @@ D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\zh-Hans\Microsoft.Owin.Security.Facebook
 D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
 D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-D:\plkjgit\AmazeUIAdmin\NewStaffWeb\obj\Debug\NewStaffWeb.csprojResolveAssemblyReference.cache
 D:\plkjgit\AmazeUIAdmin\NewStaffWeb\obj\Debug\NewStaffWeb.dll
 D:\plkjgit\AmazeUIAdmin\NewStaffWeb\obj\Debug\NewStaffWeb.pdb
+D:\plkjgit\AmazeUIAdmin\NewStaffWeb\obj\Debug\NewStaffWeb.csprojResolveAssemblyReference.cache
+D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\HankClassLibrary.dll
+D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\Aliyun.OSS.dll
+D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\Oraycn.MCapture.dll
+D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\Oraycn.MFile.dll
+D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\ESBasic.dll
+D:\plkjgit\AmazeUIAdmin\NewStaffWeb\bin\HankClassLibrary.pdb
