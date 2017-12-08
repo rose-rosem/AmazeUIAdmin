@@ -8,6 +8,7 @@ namespace NewStaffWeb
         // 有关绑定的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkId=301862
         public static void RegisterBundles(BundleCollection bundles)
         {
+            //以下代码是自动生成的
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
@@ -26,6 +27,24 @@ namespace NewStaffWeb
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            //以下由zq编写
+            bundles.Add(new ScriptBundle("~/jquerymin/js").Include(
+                        "~/assets/js/jquery.min.js"));
+
+            bundles.Add(new ScriptBundle("~/theme/js").Include(
+                        "~/assets/js/theme.js"));
+
+            bundles.Add(new ScriptBundle("~/amazeui/js").Include(
+                        "~/assets/js/amazeui.min.js",
+                        "~/assets/js/app.js"));
+
+
+            bundles.Add(new StyleBundle("~/amazeui/css").Include(
+                      "~/assets/css/amazeui.min.css",
+                      "~/assets/css/amazeui.datatables.min.css",
+                      "~/assets/css/app.css"));
+
         }
     }
 }
