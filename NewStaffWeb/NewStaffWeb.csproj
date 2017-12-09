@@ -166,11 +166,13 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\zq_CustomerTableController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\zq_CustomerTable.cs" />
@@ -205,19 +207,6 @@
     <Content Include="assets\img\ly-plate-c.gif" />
     <Content Include="assets\img\playbtn.png" />
     <Content Include="assets\img\user04.png" />
-    <Content Include="assets\i\app-icon72x72%402x.png" />
-    <Content Include="assets\i\examples\admin-chrome.png" />
-    <Content Include="assets\i\examples\admin-firefox.png" />
-    <Content Include="assets\i\examples\admin-ie.png" />
-    <Content Include="assets\i\examples\admin-opera.png" />
-    <Content Include="assets\i\examples\admin-safari.png" />
-    <Content Include="assets\i\examples\adminPage.png" />
-    <Content Include="assets\i\examples\blogPage.png" />
-    <Content Include="assets\i\examples\landing.png" />
-    <Content Include="assets\i\examples\landingPage.png" />
-    <Content Include="assets\i\examples\loginPage.png" />
-    <Content Include="assets\i\examples\sidebarPage.png" />
-    <Content Include="assets\i\favicon.png" />
     <Content Include="assets\js\amazeui.datatables.min.js" />
     <Content Include="assets\js\amazeui.min.js" />
     <Content Include="assets\js\app.js" />
@@ -229,8 +218,12 @@
     <Content Include="assets\js\jquery.min.js" />
     <Content Include="assets\js\moment.js" />
     <Content Include="assets\js\theme.js" />
+    <Content Include="assets\logoico.png" />
+    <Content Include="calendar.html" />
+    <Content Include="chart.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="form.html" />
     <Content Include="Global.asax" />
     <Content Include="assets\css\app.less" />
     <Content Include="assets\fonts\fontawesome-webfont.eot" />
@@ -239,6 +232,9 @@
     <Content Include="assets\fonts\fontawesome-webfont.woff2" />
     <Content Include="assets\fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\111.pubxml" />
+    <Content Include="table-list-img.html" />
+    <Content Include="table-list.html" />
+    <Content Include="tables.html" />
     <Content Include="Views\Home\Data.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -278,6 +274,11 @@
     <Content Include="Views\Home\Download.cshtml" />
     <Content Include="Views\Home\Lottery.cshtml" />
     <Content Include="Views\Home\Date.cshtml" />
+    <Content Include="Views\zq_CustomerTable\Create.cshtml" />
+    <Content Include="Views\zq_CustomerTable\Delete.cshtml" />
+    <Content Include="Views\zq_CustomerTable\Details.cshtml" />
+    <Content Include="Views\zq_CustomerTable\Edit.cshtml" />
+    <Content Include="Views\zq_CustomerTable\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,102 @@
+﻿@model IEnumerable<NewStaffWeb.Models.zq_CustomerTable>
+
+@{
+    ViewBag.Title = "客户表";
+}
+
+
+<p>
+    @Html.ActionLink("添加新信息到客户表", "Create")
+</p>
+
+<div class="row">
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title am-fl">客户表</div>
+                @*<div class="widget-function am-fr">
+                    <a href="javascript:;" class="am-icon-cog"></a>
+                </div>*@
+            </div>
+            <div class="widget-body  widget-body-lg am-fr">
+
+                <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+                    <thead>
+                        <tr>
+                            <th>客户姓名</th>
+                            <th>客户电话</th>
+                            <th>客户备注</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var item in Model)
+                    {
+                        <tr class="gradeX">
+                            <td>
+                                @Html.DisplayFor(modelItem => item.customerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.customerPhone)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.customerMessage)
+                            </td>
+                            <td>
+                                <div class="tpl-table-black-operation">
+                                    @*<a href="javascript:;">
+                                        <i class="am-icon-pencil"></i> 编辑
+                                    </a>
+                                    <a href="javascript:;" class="tpl-table-black-operation-del">
+                                        <i class="am-icon-trash"></i> 删除
+                                    </a>*@
+                                    @Html.ActionLink("编辑", "Edit", new { id = item.id }) 
+                                    @Html.ActionLink("详情", "Details", new { id = item.id }) 
+                                    @Html.ActionLink("删除", "Delete", new { id = item.id }, new { @class = "tpl-table-black-operation-del" })
+   
+                                </div>
+
+                            </td>
+                        </tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.customerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customerPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customerMessage)
+            </th>
+            <th></th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.customerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.customerPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.customerMessage)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.id })
+            </td>
+        </tr>
+    }
+
+    </table>*@

@@ -13,7 +13,7 @@
             <i class="am-icon-circle-o am-text-success tpl-user-panel-status-icon"></i>
             @UserName
         </span>
-        <a href="@Url.Action("Index", "Manage")" class="tpl-user-panel-action-link"> <span class="am-icon-pencil"></span> 账号设置</a>
+        <a href="@Url.Action("ChangePassword", "Manage")" class="tpl-user-panel-action-link"> <span class="am-icon-pencil"></span> 修改密码</a>
     </div>
 </div>
 <!-- 菜单 -->
@@ -41,7 +41,7 @@
         </a>
     </li>
     <li class="sidebar-nav-link">
-        <a href="#">
+        <a href="@Url.Action("Index", "zq_CustomerTable")">
             <i class="am-icon-wpforms sidebar-nav-link-logo"></i> 客户表
         </a>
     </li>

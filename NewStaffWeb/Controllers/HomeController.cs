@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using NewStaffWeb.Models;
 
 namespace NewStaffWeb.Controllers
 {
     [Authorize]
     public class HomeController : Controller
     {
+        private Customer db = new Customer();
         public ActionResult Index()
         {
-            return View();
+            return View(db.zq_CustomerTable.ToList());
         }
 
         public ActionResult Download()

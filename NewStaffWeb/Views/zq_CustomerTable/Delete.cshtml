@@ -1,0 +1,101 @@
+﻿@model NewStaffWeb.Models.zq_CustomerTable
+
+@{
+    ViewBag.Title = "删除";
+}
+
+
+<p>@Html.ActionLink("返回列表", "Index")</p>
+<div class="row">
+
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title am-fl">详情</div>
+                @*<div class="widget-function am-fr">
+                        <a href="javascript:;" class="am-icon-cog"></a>
+                    </div>*@
+            </div>
+            <div class="widget-body am-fr">
+                <h3>你确定要删除这条信息吗？删除后无法恢复</h3>
+                <dl>
+                    <dt>
+                        客户姓名
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.customerName)
+                    </dd>
+
+                    <dt>
+                        客户电话
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.customerPhone)
+                    </dd>
+
+                    <dt>
+                        客户备注
+                    </dt>
+
+                    <dd>
+                        @Html.DisplayFor(model => model.customerMessage)
+                    </dd>
+
+                </dl>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-actions no-color">
+                        <input type="submit" value="删除" class="widget-fluctuation-tpl-btn" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@*<div>
+        <h4>zq_CustomerTable</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.customerName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.customerPhone)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerPhone)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.customerMessage)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.customerMessage)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>*@
