@@ -167,6 +167,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\zq_CustomerTableController.cs" />
+    <Compile Include="Controllers\zq_InformTableController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -279,6 +280,12 @@
     <Content Include="Views\zq_CustomerTable\Details.cshtml" />
     <Content Include="Views\zq_CustomerTable\Edit.cshtml" />
     <Content Include="Views\zq_CustomerTable\Index.cshtml" />
+    <Content Include="Views\zq_InformTable\Create.cshtml" />
+    <Content Include="Views\zq_InformTable\Delete.cshtml" />
+    <Content Include="Views\zq_InformTable\Details.cshtml" />
+    <Content Include="Views\zq_InformTable\Edit.cshtml" />
+    <Content Include="Views\zq_InformTable\Index.cshtml" />
+    <Content Include="Views\zq_InformTable\inform.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

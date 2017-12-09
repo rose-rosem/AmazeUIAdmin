@@ -112,14 +112,17 @@
     <File Include="assets/img/k.jpg">
       <publishTime>12/07/2017 20:13:15</publishTime>
     </File>
+    <File Include="assets/img/load.png">
+      <publishTime>12/09/2017 13:48:16</publishTime>
+    </File>
     <File Include="assets/img/logo.png">
-      <publishTime>12/07/2017 20:13:15</publishTime>
+      <publishTime>12/09/2017 13:42:47</publishTime>
     </File>
     <File Include="assets/img/logoa.png">
-      <publishTime>12/07/2017 20:13:15</publishTime>
+      <publishTime>12/09/2017 13:30:37</publishTime>
     </File>
     <File Include="assets/img/logob.png">
-      <publishTime>12/07/2017 20:13:15</publishTime>
+      <publishTime>12/09/2017 13:30:37</publishTime>
     </File>
     <File Include="assets/img/ly-plate-c.gif">
       <publishTime>12/08/2017 15:06:10</publishTime>
@@ -137,7 +140,7 @@
       <publishTime>12/07/2017 20:13:15</publishTime>
     </File>
     <File Include="assets/img/user04.png">
-      <publishTime>12/07/2017 20:13:15</publishTime>
+      <publishTime>12/09/2017 21:52:54</publishTime>
     </File>
     <File Include="assets/img/user05.png">
       <publishTime>12/07/2017 20:13:15</publishTime>
@@ -179,7 +182,10 @@
       <publishTime>12/07/2017 20:13:15</publishTime>
     </File>
     <File Include="assets/js/theme.js">
-      <publishTime>12/07/2017 20:13:15</publishTime>
+      <publishTime>12/09/2017 21:56:50</publishTime>
+    </File>
+    <File Include="assets/logoico.png">
+      <publishTime>12/09/2017 15:32:15</publishTime>
     </File>
     <File Include="bin/Aliyun.OSS.dll">
       <publishTime>02/11/2017 23:12:17</publishTime>
@@ -245,10 +251,10 @@
       <publishTime>12/07/2017 17:29:27</publishTime>
     </File>
     <File Include="bin/NewStaffWeb.dll">
-      <publishTime>12/08/2017 17:05:39</publishTime>
+      <publishTime>12/09/2017 21:20:14</publishTime>
     </File>
     <File Include="bin/NewStaffWeb.pdb">
-      <publishTime>12/08/2017 17:05:39</publishTime>
+      <publishTime>12/09/2017 21:20:14</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>12/07/2017 17:29:30</publishTime>
@@ -343,6 +349,12 @@
     <File Include="bin/zh-Hans/System.Web.WebPages.resources.dll">
       <publishTime>12/07/2017 17:29:29</publishTime>
     </File>
+    <File Include="calendar.html">
+      <publishTime>12/09/2017 16:15:29</publishTime>
+    </File>
+    <File Include="chart.html">
+      <publishTime>12/09/2017 16:15:29</publishTime>
+    </File>
     <File Include="Content/bootstrap.css">
       <publishTime>12/07/2017 17:29:24</publishTime>
     </File>
@@ -353,7 +365,7 @@
       <publishTime>12/07/2017 17:29:22</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>12/07/2017 17:29:22</publishTime>
+      <publishTime>12/09/2017 15:15:24</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
       <publishTime>12/07/2017 17:29:24</publishTime>
@@ -366,6 +378,9 @@
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
       <publishTime>12/07/2017 17:29:24</publishTime>
+    </File>
+    <File Include="form.html">
+      <publishTime>12/09/2017 16:15:29</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>12/07/2017 17:29:22</publishTime>
@@ -412,38 +427,47 @@
     <File Include="Scripts/_references.js">
       <publishTime>12/07/2017 17:29:28</publishTime>
     </File>
+    <File Include="table-list-img.html">
+      <publishTime>12/09/2017 16:15:29</publishTime>
+    </File>
+    <File Include="table-list.html">
+      <publishTime>12/09/2017 16:15:29</publishTime>
+    </File>
+    <File Include="tables.html">
+      <publishTime>12/09/2017 16:22:07</publishTime>
+    </File>
     <File Include="Views/Account/ConfirmEmail.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:18:20</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginFailure.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
     </File>
     <File Include="Views/Account/ForgotPassword.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:18:14</publishTime>
     </File>
     <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>12/08/2017 11:04:18</publishTime>
+      <publishTime>12/09/2017 15:33:16</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>12/08/2017 11:05:11</publishTime>
+      <publishTime>12/09/2017 15:33:25</publishTime>
     </File>
     <File Include="Views/Account/ResetPassword.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:17:58</publishTime>
     </File>
     <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
     </File>
     <File Include="Views/Account/SendCode.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:17:47</publishTime>
     </File>
     <File Include="Views/Account/VerifyCode.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:17:49</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
@@ -455,7 +479,7 @@
       <publishTime>12/07/2017 17:29:22</publishTime>
     </File>
     <File Include="Views/Home/Data.aspx">
-      <publishTime>12/08/2017 16:42:12</publishTime>
+      <publishTime>12/09/2017 15:33:05</publishTime>
     </File>
     <File Include="Views/Home/Date.cshtml">
       <publishTime>12/08/2017 16:07:03</publishTime>
@@ -464,16 +488,16 @@
       <publishTime>12/08/2017 13:30:31</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>12/08/2017 16:52:57</publishTime>
+      <publishTime>12/09/2017 21:41:41</publishTime>
     </File>
     <File Include="Views/Home/Lottery.cshtml">
-      <publishTime>12/08/2017 15:07:58</publishTime>
+      <publishTime>12/09/2017 21:26:27</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:16:57</publishTime>
     </File>
     <File Include="Views/Manage/ChangePassword.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:33:35</publishTime>
     </File>
     <File Include="Views/Manage/Index.cshtml">
       <publishTime>12/07/2017 17:29:31</publishTime>
@@ -482,34 +506,67 @@
       <publishTime>12/07/2017 17:29:31</publishTime>
     </File>
     <File Include="Views/Manage/SetPassword.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:17:15</publishTime>
     </File>
     <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
-      <publishTime>12/07/2017 17:29:31</publishTime>
+      <publishTime>12/09/2017 20:17:20</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>12/08/2017 09:54:54</publishTime>
+      <publishTime>12/09/2017 16:14:09</publishTime>
     </File>
     <File Include="Views/Shared/Lockout.cshtml">
-      <publishTime>12/08/2017 09:55:00</publishTime>
+      <publishTime>12/09/2017 16:14:34</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>12/08/2017 15:24:37</publishTime>
+      <publishTime>12/09/2017 21:42:33</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>12/08/2017 10:04:03</publishTime>
+      <publishTime>12/09/2017 21:16:09</publishTime>
     </File>
     <File Include="Views/Shared/_UserPage.cshtml">
-      <publishTime>12/08/2017 16:54:03</publishTime>
+      <publishTime>12/09/2017 21:00:27</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>12/07/2017 17:29:22</publishTime>
+    </File>
+    <File Include="Views/zq_CustomerTable/Create.cshtml">
+      <publishTime>12/09/2017 21:10:26</publishTime>
+    </File>
+    <File Include="Views/zq_CustomerTable/Delete.cshtml">
+      <publishTime>12/09/2017 21:05:42</publishTime>
+    </File>
+    <File Include="Views/zq_CustomerTable/Details.cshtml">
+      <publishTime>12/09/2017 19:31:44</publishTime>
+    </File>
+    <File Include="Views/zq_CustomerTable/Edit.cshtml">
+      <publishTime>12/09/2017 19:26:15</publishTime>
+    </File>
+    <File Include="Views/zq_CustomerTable/Index.cshtml">
+      <publishTime>12/09/2017 20:10:07</publishTime>
+    </File>
+    <File Include="Views/zq_InformTable/Create.cshtml">
+      <publishTime>12/09/2017 21:15:09</publishTime>
+    </File>
+    <File Include="Views/zq_InformTable/Delete.cshtml">
+      <publishTime>12/09/2017 21:05:36</publishTime>
+    </File>
+    <File Include="Views/zq_InformTable/Details.cshtml">
+      <publishTime>12/09/2017 21:04:01</publishTime>
+    </File>
+    <File Include="Views/zq_InformTable/Edit.cshtml">
+      <publishTime>12/09/2017 21:15:39</publishTime>
+    </File>
+    <File Include="Views/zq_InformTable/Index.cshtml">
+      <publishTime>12/09/2017 20:57:08</publishTime>
+    </File>
+    <File Include="Views/zq_InformTable/inform.cshtml">
+      <publishTime>12/09/2017 21:37:53</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
       <publishTime>12/07/2017 17:29:22</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/08/2017 17:07:47</publishTime>
+      <publishTime>12/09/2017 21:24:59</publishTime>
     </File>
   </ItemGroup>
 </Project>

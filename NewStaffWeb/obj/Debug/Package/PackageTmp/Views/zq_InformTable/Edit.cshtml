@@ -1,0 +1,86 @@
+﻿@model NewStaffWeb.Models.zq_InformTable
+
+@{
+    ViewBag.Title = "编辑";
+}
+
+<p>
+    @Html.ActionLink("返回到列表", "Index")
+</p>
+
+<div class="row">
+
+    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+        <div class="widget am-cf">
+            <div class="widget-head am-cf">
+                <div class="widget-title am-fl">编辑</div>
+                @*<div class="widget-function am-fr">
+                        <a href="javascript:;" class="am-icon-cog"></a>
+                    </div>*@
+            </div>
+            <div class="widget-body am-fr">
+
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    @Html.HiddenFor(model => model.id)
+
+                    <div class="am-form-group">
+                        <label for="user-name" class="am-u-sm-12 am-form-label am-text-left">通知信息 <span class="tpl-form-line-small-title">Inform</span></label>
+                        <div class="am-u-sm-12">
+                            @Html.EditorFor(model => model.inform, new { htmlAttributes = new { @class = "tpl-form-input am-margin-top-xs", id = "user-name", type = "text" } })
+                            @Html.ValidationMessageFor(model => model.inform, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="am-form-group">
+                        <div class="am-u-sm-12 am-u-sm-push-12">
+                            <input type="submit" value="保存" class="am-btn am-btn-primary tpl-btn-bg-color-success " />
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    document.getElementsByTagName("form")[2].setAttribute("class", "am-form tpl-form-border-form");
+
+</script>
+
+@*<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>zq_InformTable</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.inform, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.inform, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.inform, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@
